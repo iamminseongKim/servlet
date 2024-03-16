@@ -29,6 +29,7 @@ public class RequestHeaderServlet extends HttpServlet {
         System.out.println("request.getScheme() = " + request.getScheme()); //http
         // http://localhost:8080/request-header
         System.out.println("request.getRequestURL() = " + request.getRequestURL());
+
         // /request-test
         System.out.println("request.getRequestURI() = " + request.getRequestURI());
         //username=hi
